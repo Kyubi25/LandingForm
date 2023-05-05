@@ -1,0 +1,150 @@
+:root{
+    --color: rgb(239, 189, 168);
+    --txt: rgb(185, 185, 185)
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Dancing-script';
+    color: var(--txt);
+
+}
+
+
+
+.content {
+    width: 100vw;
+    height: 100vh;
+}
+
+.content,
+.logo{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.left{
+    background-image: url(/img/earl-wilcox-8EeWFrTw2i0-unsplash.webp);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 40vw;
+}
+
+.logo{
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 35vh;
+    gap: 0.5vw;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.al-logo {
+    height: 15vh;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+}
+
+.right{
+    width: 60vw;
+    background-color: #ffffff;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    
+
+}
+
+.introduction{
+    font-weight: 500;
+    width: 90%;
+    font-size: 1.2rem;
+    color: antiquewhite;
+    padding: 3rem;
+}
+
+.form{
+    background-color: white;
+    box-shadow: 0 10px 20px -2px var(--color);
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 3rem;
+}
+
+.input{
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    opacity: 50%;
+}
+
+.form-title{
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--color);
+}
+
+input{
+    background-color: var(--color);
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 3px;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid var(--color);
+}
+
+button{
+    background-color: rgba(0, 0, 0, 0);
+    color: var(--color);
+    font-weight: 700;
+    font-size: 1.2em;
+    border: 2px solid var(--color);
+    border-radius: 5px;
+    padding: 10px 40px;
+    margin: 40px 0;
+}
+
+button:hover{
+    background-color: var(--color);
+    color: black;
+    
+}
+
+.log-in{
+    display: flex;
+    gap: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--color);
+    font-weight: 700;
+}
+
+a:hover{
+    color: white;
+}
+
+.button{
+    padding-left: 3rem;
+}
+
+.log-in{
+    padding-left: 3rem;
+}
+
